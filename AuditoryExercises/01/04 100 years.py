@@ -11,3 +11,4 @@ print("Vnesete ime i godini:")
 name = input()
 age = int(input())
 print(name, "kje ima 100 godini vo", 2025 - age + 100)
+

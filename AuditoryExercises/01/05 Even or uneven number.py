@@ -19,3 +19,4 @@ if a % 4 == 0:
     print("Deliv so 4")
 else:
     print("Ne e deliv so 4")
+

@@ -24,3 +24,4 @@ for (name, birthday) in birthdays.items():
 print("Koj rodenden e potrebno da se prebara?")
 name = input()
 print(birthdays[name])
+
