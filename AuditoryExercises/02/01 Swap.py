@@ -3,3 +3,4 @@ b = []
 for (x, y) in a:
     b.append([y, x])
 print(b)
+
