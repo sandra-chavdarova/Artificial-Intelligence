@@ -14,6 +14,38 @@
 (70, 80] - 8
 (80, 90] - 9
 (90, 100] - 10
+
+Input:
+Alice,Doe,141414,Artificial Intelligence,40,40,5
+Alice,Doe,141414,Machine Learning,30,40,10
+Lewis,Smith,141415,Robotics,40,30,10
+Lewis,Smith,141415,Bioinformatics,40,30,10
+George,Williams,123456,Artificial Intelligence,20,40,9
+James,Brown,123457,Artificial Intelligence,25,30,3
+William,Williams,123458,Artificial Intelligence,10,45,8
+Elle,Brown,123459,Artificial Intelligence,45,10,7
+end
+
+Result:
+Student: Alice Doe
+----Artificial Intelligence: 9
+----Machine Learning: 8
+
+Student: Lewis Smith
+----Robotics: 8
+----Bioinformatics: 8
+
+Student: George Williams
+----Artificial Intelligence: 7
+
+Student: James Brown
+----Artificial Intelligence: 6
+
+Student: William Williams
+----Artificial Intelligence: 7
+
+Student: Elle Brown
+----Artificial Intelligence: 7
 """
 
 
