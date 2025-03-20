@@ -107,7 +107,6 @@ class Puzzle_h2(Puzzle):
 
 if __name__ == '__main__':
     puzzle = Puzzle("*32415678", "*12345678")
-
     result1 = astar_search(puzzle)
     print(result1.solve())
     result2 = greedy_best_first_graph_search(puzzle)
@@ -116,7 +115,6 @@ if __name__ == '__main__':
     print(result3.solution())
 
     puzzle2 = Puzzle_h2("*32415678", "*12345678")
-
     result4 = astar_search(puzzle2)
     print(result1.solve())
     result5 = greedy_best_first_graph_search(puzzle2)
