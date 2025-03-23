@@ -39,7 +39,6 @@ def valid(x, y, n):
 
 def count(matrix, n):
     matrix = [[0 if x == "-" else x for x in row] for row in matrix]
-
     neighbors = [(-1, 0), (1, 0), (0, -1), (0, 1), (-1, -1), (-1, 1), (1, -1), (1, 1)]
     mines = [(i, j) for i in range(n) for j in range(n) if matrix[i][j] == "#"]
     for (i, j) in mines:
