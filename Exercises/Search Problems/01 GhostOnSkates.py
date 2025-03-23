@@ -93,4 +93,3 @@ if __name__ == '__main__':
         print(result.solution())
     else:
         print("No solution")
-
