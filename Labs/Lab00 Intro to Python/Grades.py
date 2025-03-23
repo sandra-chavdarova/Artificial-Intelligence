@@ -80,4 +80,3 @@ if __name__ == "__main__":
         for (subject, grade) in students[index]["subjects"].items():
             print(f"----{subject}: {grade}")
         print()
-
