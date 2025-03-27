@@ -100,5 +100,6 @@ if __name__ == "__main__":
     result = breadth_first_graph_search(problem)
     if result is not None:
         print(result.solution())
+        print(result.path_cost)
     else:
         print("No solution")
