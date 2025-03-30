@@ -160,10 +160,10 @@ class Snake(Problem):
         green = node.state[2]
         if len(green) != 0:
             apple = green[0]
-            minimum = abs(head[0] - apple[0]) + abs(head[1] - apple[1])
+            maximum = abs(head[0] - apple[0]) + abs(head[1] - apple[1])
             for g in green:
-                minimum = max(minimum, abs(head[0] - g[0]) + abs(head[1] - g[1]))
-            return minimum
+                maximum = max(maximum, abs(head[0] - g[0]) + abs(head[1] - g[1]))
+            return maximum
         else:
             return 0
 
