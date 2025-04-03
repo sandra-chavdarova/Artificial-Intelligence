@@ -5,3 +5,4 @@ This repository contains solved auditory, laboratory and exam exercises from the
 - Intro to Python
 - Uninformed Search
 - Informed Search
+- Constraint Satisfation Problems
