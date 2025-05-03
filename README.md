@@ -7,3 +7,4 @@ The problems are solved using Python.
 - Uninformed Search
 - Informed Search
 - Constraint Satisfation Problems
+- Naive Bayes Clasificator
