@@ -37,7 +37,8 @@ if __name__ == '__main__':
     accuracy = accuracy_score(test_y, predictions)
     print(f"Accuracy: {accuracy}")
 
-    feature_importances = list(classifier.feature_importances_)
+    # feature_importances = list(classifier.feature_importances_)
+    feature_importances = [float(x) for x in classifier.feature_importances_]
     print(f"Feature importances: {feature_importances}")
 
     most_important_feature = feature_importances.index(max(feature_importances))
