@@ -45,7 +45,7 @@ if __name__ == '__main__':
     print(f"Most important feature: {most_important_feature}")
     print(f"Least important feature: {least_important_feature}")
 
-    # -------------------------------------------------------------------------------------
+    # ---------Taking out the most and least important feature to see the difference in the accuracies---------
 
     train_x_2 = list()
     for t in train_x:
