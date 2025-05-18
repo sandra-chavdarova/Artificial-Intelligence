@@ -8,3 +8,5 @@ The problems are solved using Python.
 - Informed Search
 - Constraint Satisfation Problems
 - Naive Bayes Clasificator
+- Decision Trees
+- Neural Networks
